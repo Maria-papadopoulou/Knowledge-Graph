@@ -44,7 +44,6 @@ CREATE (a1)-[:AUTHORS]->(b2)
 CREATE (a2)-[:AUTHORS]->(b3)
 CREATE (a2)-[:AUTHORS]->(b4)
 CREATE (a3)-[:AUTHORS]->(b5);
-RETURN a1, a2, a3, b1, b2, b3, b4, b5
 
 // 4. ΕΜΦΑΝΙΣΗ ΟΛΟΚΛΗΡΟΥ ΤΟΥ ΓΡΑΦΟΥ
 MATCH (n) RETURN n;
