@@ -15,7 +15,7 @@ CREATE (b2:Book {title: "Introduction to Computational Genomics", category: "Β�
 CREATE (b3:Book {title: "The Art of Computer Programming", category: "Πληροφορική"})
 CREATE (b4:Book {title: "Concrete Mathematics", category: "Μαθηματικά"})
 CREATE (b5:Book {title: "Campbell Biology", category: "Βιολογία"})
-RETURN a1, a2, a3, b1, b2, b3, b4, b5
+
 
 // 3. ΔΗΜΙΟΥΡΓΙΑ ΣΧΕΣΕΩΝ (ΣΥΝΔΕΣΕΙΣ)
 // Ενώνουμε τον κάθε συγγραφέα με τα βιβλία που έχει γράψει.
