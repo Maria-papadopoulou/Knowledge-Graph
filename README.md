@@ -26,6 +26,7 @@ CREATE (b2:Book {title: "Introduction to Computational Genomics", category: "Β�
 CREATE (b3:Book {title: "The Art of Computer Programming", category: "Πληροφορική"})
 CREATE (b4:Book {title: "Concrete Mathematics", category: "Μαθηματικά"})
 CREATE (b5:Book {title: "Campbell Biology", category: "Βιολογία"})
+
 ```
 Κόμβοι βιβλίων:
 <img width="833" height="636" alt="Screenshot_2" src="https://github.com/user-attachments/assets/d531eaaa-2f7d-47b9-8fa9-fb60c86be41b" />
@@ -43,6 +44,7 @@ CREATE (a1)-[:AUTHORS]->(b2)
 CREATE (a2)-[:AUTHORS]->(b3)
 CREATE (a2)-[:AUTHORS]->(b4)
 CREATE (a3)-[:AUTHORS]->(b5);
+RETURN a1, a2, a3, b1, b2, b3, b4, b5
 
 // 4. ΕΜΦΑΝΙΣΗ ΟΛΟΚΛΗΡΟΥ ΤΟΥ ΓΡΑΦΟΥ
 MATCH (n) RETURN n;
